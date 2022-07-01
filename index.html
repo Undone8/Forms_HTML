@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!--<link rel="stylesheet" href="style.css"/> -->
+</head>
+<body>
+    <h1 id="Titulo">Cadastro da Liga de Programadores</h1>
+    <form>
+        Nome: <input type="text" name="q" placeholder="insira seu Nome" required>
+            <p>
+                Email: <input type="email" placeholder="Insira seu Email"> -Senha: <input type="password" placeholder="Insira uma senha">
+            </p>
+<form>
+                    <label for="birthday">Data de Nascimento:</label>
+                    <input type="date" id="birthday" name="birthday">
+                    foto: <input type="file" placeholder="Escolher Foto">
+</form>
+<br>
+<form>
+    Nacionalidade:<input list="Pais" name="Pais">
+        <datalist id="Pais">
+            <option value="Brasil"></option>
+        </datalist>
+            <form> Genero:
+                <Label for="F">F</Label>
+                <input type="radio" id="F" name="Genero" value="F">
+                <label for="M">M</label>
+                <input type="radio" id="M" name="Genero" value="M">
+            </form>
+        </form>
+    <p>
+    Linguagens que Vocé Domina:</p>
+    <input type="checkbox"> JavaScript- 
+    <input type="checkbox">Pyton-
+    <input type="checkbox"> C -
+    <input type="checkbox">Java
+    </p>
+    <textarea name="message" rows="20" cols="50" id="area">Por que deseja ser um Programador?
+    </textarea>
+</body>
+</html>
